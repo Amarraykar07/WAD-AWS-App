@@ -1,78 +1,114 @@
-Step 6: Initialize Git
+# WAD-AWS-App 🚀
+
+## 📌 Project Overview
+
+This project demonstrates how to **deploy a web application in a PaaS environment using AWS Amplify**.
+The application is hosted directly from a GitHub repository and automatically deployed using AWS Amplify’s CI/CD pipeline.
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML / CSS / JavaScript
+* Git & GitHub
+* AWS Amplify (PaaS)
+
+---
+
+## 📂 Project Structure
+
+```
+WAD-AWS-App/
+│── index.html
+│── style.css
+│── script.js
+│── README.md
+```
+
+---
+
+## ⚙️ Steps to Run the Project
+
+### 🔹 Step 1: Initialize Git
+
+```bash
 git init
-Step 7: Add Files
+```
+
+### 🔹 Step 2: Add Files
+
+```bash
 git add .
-Step 8: Commit Files
+```
+
+### 🔹 Step 3: Commit Files
+
+```bash
 git commit -m "First Commit"
-Step 9: Create Repository on GitHub
+```
 
-Go to GitHub
+### 🔹 Step 4: Connect to GitHub
 
-Click:
-
-New Repository
-
-Name:
-
-WAD-AWS-App
-
-Click:
-
-Create Repository
-Step 10: Connect Local Folder to GitHub
-
-Copy GitHub commands and run:
-
+```bash
 git branch -M main
 git remote add origin https://github.com/YourUsername/WAD-AWS-App.git
 git push -u origin main
-PART D — Deploy on AWS Amplify from 0
-Step 11: Login AWS
+```
 
-Go to Amazon Web Services Console.
+---
 
-Login.
+## ☁️ Deployment on AWS Amplify
 
-Step 12: Search Amplify
+### 🔹 Step 1: Login to AWS
 
-Search:
+* Open AWS Console
+* Login with your credentials
 
-Amplify
+### 🔹 Step 2: Open Amplify
 
-Open AWS Amplify
+* Search **Amplify**
+* Click **AWS Amplify**
 
-Step 13: Click Create App
+### 🔹 Step 3: Create App
 
-Choose:
+* Click **Host Web App**
 
-Host Web App
-Step 14: Select GitHub
+### 🔹 Step 4: Connect GitHub
 
-Choose:
+* Select **GitHub**
+* Authorize access
 
-GitHub
+### 🔹 Step 5: Select Repository
 
-Click Continue.
+* Repository: `WAD-AWS-App`
+* Branch: `main`
 
-Authorize GitHub.
+### 🔹 Step 6: Build Settings
 
-Step 15: Choose Repository
+* Keep default settings
 
-Select:
+### 🔹 Step 7: Deploy
 
-Repository: WAD-AWS-App
-Branch: main
+* Click **Save and Deploy**
 
-Click Next.
+---
 
-Step 16: Build Settings
+## 🌐 Output
 
-Keep default settings.
+After deployment, AWS Amplify provides a live URL where your web app is hosted.
 
-Click Next.
+---
 
-Step 17: Save and Deploy
+## ✅ Features
 
-Click:
+* Simple web application hosting
+* Automatic deployment using GitHub
+* Continuous Integration & Deployment (CI/CD)
 
-Save and Deploy
+---
+
+## 🎯 Conclusion
+
+This project successfully demonstrates how to deploy a web application using AWS Amplify in a PaaS environment.
+
+---
