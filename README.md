@@ -1,37 +1,78 @@
-# WAD-AWS-App
-
-## Git Commands
-
-### Commit Changes
-To stage and commit your changes, use:
-
-```bash
+Step 6: Initialize Git
+git init
+Step 7: Add Files
 git add .
-git commit -m "Your commit message here"
-```
+Step 8: Commit Files
+git commit -m "First Commit"
+Step 9: Create Repository on GitHub
 
-Or stage specific files:
+Go to GitHub
 
-```bash
-git add <file-name>
-git commit -m "Your commit message here"
-```
+Click:
 
-### Push Changes
-To push your committed changes to the remote repository:
+New Repository
 
-```bash
-git push origin main
-```
+Name:
 
-Or push a specific branch:
+WAD-AWS-App
 
-```bash
-git push origin <branch-name>
-```
+Click:
 
-### Complete Workflow
-1. Make your changes
-2. Stage changes: `git add .`
-3. Commit changes: `git commit -m "Describe your changes"`
-4. Push to remote: `git push origin main`
+Create Repository
+Step 10: Connect Local Folder to GitHub
+
+Copy GitHub commands and run:
+
+git branch -M main
+git remote add origin https://github.com/YourUsername/WAD-AWS-App.git
+git push -u origin main
+PART D — Deploy on AWS Amplify from 0
+Step 11: Login AWS
+
+Go to Amazon Web Services Console.
+
+Login.
+
+Step 12: Search Amplify
+
+Search:
+
+Amplify
+
+Open AWS Amplify
+
+Step 13: Click Create App
+
+Choose:
+
+Host Web App
+Step 14: Select GitHub
+
+Choose:
+
+GitHub
+
+Click Continue.
+
+Authorize GitHub.
+
+Step 15: Choose Repository
+
+Select:
+
+Repository: WAD-AWS-App
+Branch: main
+
+Click Next.
+
+Step 16: Build Settings
+
+Keep default settings.
+
+Click Next.
+
+Step 17: Save and Deploy
+
+Click:
+
+Save and Deploy
